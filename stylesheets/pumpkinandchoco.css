@@ -1,0 +1,46 @@
+.background{
+	 text-align: center;
+}
+img{
+	width: 400px;
+	display: inline-block;
+	position: relative;
+	left: -20%;
+	top:25px;
+}
+#ingrecontainer{
+	display: inline-block;
+	height: 400px;
+	position: relative;
+	left: 20%;
+	top:-400px;
+}
+li{
+	padding: 8px 6px 8px 8px;
+}
+#ingredient>li:hover{
+	background-color: #a9a9a9;
+}
+#direcontainer{
+	width: 75%;
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	top: -350px;
+}
+.checked{
+  background: #a9a9a9;
+  color: #fff;
+  text-decoration: line-through;
+}
+.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #ff3b3f;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  left: 26px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}

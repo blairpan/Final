@@ -1,0 +1,32 @@
+.tip{
+	display: inline-block;
+	position:relative;
+	margin: 30px;
+	margin-left: 150px;
+	width:80%;
+	
+}
+.tiptitle{
+	background-color: #caebf2;
+	width:80%;
+	padding: 15px;
+	height: 45px;
+	border-radius: 5px;
+}
+.tipcontent{
+	background-color:white;
+	width: 80%;
+	padding: 15px;
+	display: none;
+	border-radius: 5px;
+}
+p{
+	display: inline-block;
+	width: 150px;
+}
+.expand{
+	height:30px;
+	width: 30px;
+	position: relative;
+	left:75%;
+}

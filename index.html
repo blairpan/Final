@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	<script type="text/javascript" src="scripts/home.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/home.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+</head>
+<body>
+
+	<div class="header">
+	<button id="but1" onclick="location.href='index.html'"> Home </button>
+	<div class="dropbut">
+	<button id="but2"> Recipes </button>
+		<div class="content">
+		<a href="templates/pumpkin.html">Pumpkin Cheesecake</a>
+		<a href="templates/carrot.html">Carrot Cake</a>
+		<a href="templates/chocolate.html">Chocolate Cake</a>
+		<a href="templates/strawberry.html">Strawberry Cake</a>
+		</div>
+	</div>
+	<button id="but3" onclick="location.href='templates/more.html'"> More </button>
+	<button id="but4" onclick="location.href='templates/tips.html'"> Tips </button>
+	</div>
+
+<div class="background">
+	<div class="title">
+	<h2>Cake Recipes </h2>
+	</div>
+
+<div class="slidecontainer">
+	<div class="slides fade" > 
+		<a href="templates/pumpkin.html"><img src="images/homepcake.jpg" alt="pumpkin chesse cake with pecan topping"></a>
+		<div class="caption">Pumpkin Cheesecake</div>
+	</div>
+
+	<div class="slides fade"> 
+		<a href="templates/carrot.html"><img src="images/homeccake.jpg" alt="a picture of carrot cake"></a>
+		<div class="caption">Carrot Cake</div>
+	</div>
+
+	<div class="slides fade"> 
+		<a href="templates/chocolate.html"><img src="images/homecocake.jpg" alt="a picture of a chocolate cake"></a>
+		<div class="caption">Chocolate Cake</div>
+	</div>
+
+	<div class="slides fade"> 
+		<a href="templates/strawberry.html"><img src="images/homescake.jpg" alt="a picture of a strawberry cake"></a>
+		<div class="caption">Strawberry Cake</div>
+	</div>
+</div>
+
+	<a class="prev">&#10094;</a>
+	<a class="next">&#10095;</a>
+
+<div class="dots">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+</div>
+
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+.background{
+    height: 800px;
+    text-align: center;
+}
+input {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#search{
+	background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    padding: 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+}
+#search:hover {
+	background-color: #e7e7e7;
+}
+.background{
+	height:800px;
+}
+#container{
+	position: relative;
+	top:15%;
+}

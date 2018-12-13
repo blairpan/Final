@@ -1,0 +1,23 @@
+$(document).ready(function(){
+	$("#expand1").click(function(){
+		$("#tipcontent1").toggle(function(){
+		});
+	});
+	$("#expand2").click(function(){
+		$("#tipcontent2").toggle(function(){
+		});
+	});
+	$("#expand3").click(function(){
+		$("#tipcontent3").toggle(function(){
+		});
+	});
+	$("#expand4").click(function(){
+		$("#tipcontent4").toggle(function(){
+		});
+	});
+	$("#expand5").click(function(){
+		$("#tipcontent5").toggle(function(){
+		});
+	});
+
+});
